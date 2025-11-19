@@ -16,8 +16,8 @@ repositories {
 }
 
 dependencies {
-    compileOnly("net.minestom:minestom:2025.07.04-1.21.5")
-    testImplementation("net.minestom:minestom:2025.07.04-1.21.5")
+    compileOnly("net.minestom:minestom:2025.08.29-1.21.8")
+    testImplementation("net.minestom:minestom:2025.08.29-1.21.8")
 }
 
 tasks.withType<JavaCompile> {

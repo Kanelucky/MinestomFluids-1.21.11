@@ -42,7 +42,7 @@ public class Main {
 					handler.placeFluid(instance, event.getBlockPosition(), MinestomFluids.WATER.getDefaultState());
 				} else {
 					event.getInstance().placeBlock(new BlockHandler.Placement(
-							Block.WATER, event.getInstance(), event.getBlockPosition().relative(event.getBlockFace())));
+							Block.WATER, event.getBlock(), event.getInstance(), event.getBlockPosition().relative(event.getBlockFace())));
 				}
 			} else if (event.getPlayer().getItemInHand(event.getHand()).material() == Material.BUCKET) {
 				WaterlogHandler handler = MinestomFluids.getWaterlog(event.getBlock());
@@ -55,7 +55,7 @@ public class Main {
 				}
 			} else if (event.getPlayer().getItemInHand(event.getHand()).material() == Material.LAVA_BUCKET) {
 				event.getInstance().placeBlock(new BlockHandler.Placement(
-						Block.LAVA, event.getInstance(), event.getBlockPosition().relative(event.getBlockFace())));
+						Block.LAVA, event.getBlock(), event.getInstance(), event.getBlockPosition().relative(event.getBlockFace())));
 			}
 		});
 		

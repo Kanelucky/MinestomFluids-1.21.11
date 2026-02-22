@@ -6,7 +6,7 @@ plugins {
 group = "io.github.togar2"
 
 java {
-    toolchain.languageVersion = JavaLanguageVersion.of(21)
+    toolchain.languageVersion = JavaLanguageVersion.of(25)
     withSourcesJar()
     withJavadocJar()
 }
@@ -16,8 +16,9 @@ repositories {
 }
 
 dependencies {
-    compileOnly("net.minestom:minestom:2025.08.29-1.21.8")
-    testImplementation("net.minestom:minestom:2025.08.29-1.21.8")
+    compileOnly("net.minestom:minestom:2026.02.19-1.21.11")
+    implementation("net.minestom:minestom:2026.02.19-1.21.11")
+    implementation("it.unimi.dsi:fastutil:8.5.13")
 }
 
 tasks.withType<JavaCompile> {

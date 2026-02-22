@@ -4,6 +4,7 @@ import net.minestom.server.coordinate.BlockVec;
 import net.minestom.server.instance.Instance;
 import net.minestom.server.instance.block.Block;
 import net.minestom.server.instance.block.rule.BlockPlacementRule;
+
 import org.jetbrains.annotations.NotNull;
 
 public class FluidPlacementRule extends BlockPlacementRule {

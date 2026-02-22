@@ -6,6 +6,7 @@ import net.minestom.server.instance.Instance;
 import net.minestom.server.instance.block.Block;
 import net.minestom.server.instance.block.BlockFace;
 import net.minestom.server.item.Material;
+
 import org.jetbrains.annotations.Nullable;
 
 public class WaterFluid extends FlowableFluid {

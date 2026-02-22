@@ -7,6 +7,7 @@ import net.minestom.server.event.trait.InstanceEvent;
 import net.minestom.server.instance.Instance;
 import net.minestom.server.instance.block.Block;
 import net.minestom.server.instance.block.BlockFace;
+
 import org.jetbrains.annotations.NotNull;
 
 public class FluidBlockBreakEvent implements InstanceEvent, BlockEvent, CancellableEvent {

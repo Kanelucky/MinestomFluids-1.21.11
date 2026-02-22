@@ -2,7 +2,9 @@ package io.github.togar2.fluids;
 
 import it.unimi.dsi.fastutil.shorts.Short2BooleanMap;
 import it.unimi.dsi.fastutil.shorts.Short2BooleanOpenHashMap;
+
 import net.kyori.adventure.key.Key;
+
 import net.minestom.server.MinecraftServer;
 import net.minestom.server.coordinate.BlockVec;
 import net.minestom.server.coordinate.Point;
@@ -13,6 +15,7 @@ import net.minestom.server.instance.block.BlockHandler;
 import net.minestom.server.item.Material;
 import net.minestom.server.registry.Registry;
 import net.minestom.server.utils.Direction;
+
 import org.jetbrains.annotations.Nullable;
 
 import java.util.EnumMap;
